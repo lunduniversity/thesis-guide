@@ -1,0 +1,1966 @@
+\section{Verktyg för genomförande}\label{verktyg-fuxf6r-genomfuxf6rande}
+
+När man har valt den övergripande metodiken för sitt examensarbete och
+ska gå till det praktiska genomförandet, behöver man en ''verktygslåda''
+av olika metoder. Beroende på ämnesområde och metodik behövs
+naturligtvis olika verktyg som är anpassade till situationen. I detta
+kapitel ges en översikt över en del viktiga verktyg, samt hänvisningar
+till mer fördjupade beskrivningar. Verktygen är grupperade i följande
+kategorier:
+
+\begin{itemize}
+\item
+  \emph{Utvärdering:} Hur kan utvärderingar genomföras? Hur kan
+  utvärderingar användas som grund för beslutsfattande?
+\item
+  \emph{Kvalitetsdimensioner:} Vilka olika egenskaper kan utvärderas för
+  olika typer av utvärderingsobjekt?
+\item
+  \emph{Datainsamling:} Hur kan insamling av data ske? Hur kan mätningar
+  göras?
+\item
+  \emph{Prototyputveckling:} Vilken roll kan prototyper spela?
+\item
+  \emph{Modellering:} Hur bygger man en modell av ett fenomen, t~ex för
+  simulering och hur validerar man modellens beteende?
+\item
+  \emph{Analys:} Hur kan insamlad data analyseras kvantitativt och
+  kvalitativt?
+\item
+  \emph{Resultatvalidering:} Hur kan resultatens giltighet bedömas?
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item ~
+    \section{Utvärdering}\label{utvuxe4rdering}
+  \end{enumerate}
+\end{itemize}
+
+En viktig del av de övergripande utbildningsmålen med examensarbetet är,
+som beskrivits i kapitel 2, att lära sig hur en utvärdering av det egna
+bidraget genomförs på ett vetenskapligt sätt. Utvärderingen syftar till
+att bedöma det egna bidragets kvalitet, utifrån de målsättningar som
+definierats som utgångspunkt för examensarbetet. Vad som utgör det egna
+bidragets kvalitet och hur denna ska utvärderas beror helt på
+situationen. De konkreta kriterier och förutsättningar som gäller för
+utvärderingen avgörs därmed från fall till fall. Metodiken för
+utvärderingen bör passa in i den övergripande metodiken för
+examensarbetet, som beskrivs i kapitel 3. En utvärdering på vetenskaplig
+grund innebär bland annat att utvärderingen bör:
+
+\begin{itemize}
+\item
+  ha en i förväg upprättad \emph{utvärderingsplan} där detaljerade steg
+  i utvärderingen identifieras och kriterier och förutsättningar
+  definieras i enlighet med examensarbetets övergripande metodik,
+\item
+  vara \emph{förutsättningslös} \emph{och objektiv}, i meningen att
+  utvärderingen inte är styrd av förutfattade meningar om önskvärda
+  resultat och ej har syftet att försköna eller svartmåla verkligheten,
+\item
+  innefatta en heltäckande och ärlig \emph{redovisning} av både
+  genomförande och utvärderingsresultat (såväl positiva som negativa),
+  som möjliggör oberoende värdering så att utomstående själva kan
+  granska och bedöma trovärdigheten.
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item
+    Utvärderingsprocessen
+  \end{enumerate}
+\end{itemize}
+
+Om examensarbetet är av implementerande karaktär, där examensarbetarna t
+ex tar fram en prototyp eller vidareutvecklar en befintlig produkt, är
+utvärdering av specifika kvalitetsegenskaper ofta centrala. Exempelvis
+kan ett examensarbete handla om att lägga till en ny funktion i ett
+existerande system och utvärdera hur denna funktion påverkar systemets
+totala prestanda. I detta exempel blir mätningar av prestanda genom
+modellering och simulering central för utvärderingen.
+
+Om examensarbetet är av undersökande eller utredande karaktär behöver
+slutsatsernas trovärdighet och giltighet (validitet) utvärderas, och
+därmed avgöra om de duger som t.ex. beslutsunderlag eller grund för
+vidare undersökningar. Denna typ av utvärdering baseras ofta på en
+dialog med intressenter som berörs eller drar nytta av resultaten eller
+med andra personer som kan bidra med en resultatbedömning. Här är
+intervjuer och enkäter värdefulla verktyg. Exempelvis kan resultaten
+från en utredning om en arbetsprocess redovisas för beslutfattare som
+ansvarar för den undersökta processen och frågor ställas genom
+intervjuer eller enkäter angående resultatens rimlighet och möjligheten
+att använda utredningsresultaten i arbetet med att effektivisera och
+vidareutveckla processen.
+
+Med diskussionerna om god vetenskaplig metodik i kapitel 2 i minnet, i
+linje med vald metodik enligt kapitel 3, och i beaktande av
+verktygslådan av metoder som presenteras i detta kapitel, så är det
+lämpligt att genomförandet av en utvärdering beaktar följande steg och
+frågeställningar:
+
+\begin{itemize}
+\item
+  \emph{Karaktärisering av utvärderingsobjekt}: Vad är det som ska
+  utvärderas? Vilka kvalitetsdimensioner har utvärderingsobjektet?
+\item
+  \emph{Definition av utvärderingssyfte:} Varför gör vi utvärderingen?
+  Vilka kvalitetsdimensioner är viktiga? Vilka frågor vill vi ha svar på
+  i utvärderingen?
+\item
+  \emph{Val av utvärderingsmetod:} Hur ska vi genomföra utvärderingen?
+  Hur genomförs datainsamlingen? Hur ska vi mäta på
+  utvärderingsobjektet?
+\item
+  \emph{Genomförande av utvärderingen:} Detta steg innebär att vi
+  genomför de praktiska moment som definieras av de övriga
+  utvärderingsstegen. Data från utvärderingen sparas på lämpligt sätt.
+\item
+  \emph{Analys av resultaten:} Hur ska vi kvantitativt och/eller
+  kvalitativt analysera resultaten? Vilka statistiska metoder kan vi
+  använda?
+\item
+  \emph{Validering av resultaten:} Vilka begränsningar i resultatens
+  giltighet finns? Vilka är hoten mot validiteten? Hur kan vi minska
+  eller helt undvika validitetshot?
+\item
+  \emph{Presentation av resultat:} Hur visualiserar vi resultaten? Vilka
+  slutsatser kan vi dra? Hur kan resultaten presenteras så att de blir
+  en bra grund för beslutsfattande?
+\end{itemize}
+
+Valet av utvärderingsmetod styrs av utvärderingsobjektets karaktäristika
+och av utvärderingens syfte. Här kan, beroende på sammanhanget, en eller
+flera metoder ur detta kapitel vara användbara. Man kan till exempel med
+fördel kombinera kvantitativa mätningar av specifika egenskaper hos en
+prototyp med kvalitativa intervjuer med noggrant utvalda pilotanvändare.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Utvärdering som beslutsunderlag
+\end{enumerate}
+
+Ofta utgör utvärderingar underlag för beslutsfattande. Ett examensarbete
+kan till exempel som delresultat ge rekommendationer om vilket av flera
+alternativ som är bäst enligt angivna förutsättningar baserat på
+utvärderingsresultat av respektive alternativ.
+
+När man ska fatta beslut är det ofta avgörande att på ett relevant sätt
+kunna väga samman olika kvalitetsdimensioner och egenskaper. Sådana
+avvägningar kan vara mycket svåra och kräver ofta ingående kunskap om
+det specifika problemet. Dessutom finns det ofta komplexa beroende
+mellan olika egenskaper. Till exempel så kan en produkts \emph{säkerhet}
+påverkas negativt om det finns dolda fel i produkten, vilket i sin tur
+har med \emph{tillförlitlighet} att göra. Ett annat exempel är att
+\emph{användbarheten} av en produkt kan påverkas negativt av
+säkerhetsåtgärder såsom lås eller inloggningsfunktioner.
+
+Beslutsunderlag bör åskådliggöra det man ska fatta beslut om och på ett
+lättöverskådligt sätt visualisera informationen som ligger till grund
+för beslutet. Ett sätt att presentera utvärderingsresultat som grund för
+beslut är att ställa upp \emph{kriterietabeller}. Figur 6.1 visar ett
+exempel på hur en kriterietabell kan konstrueras.
+
+Raderna i exemplet på kriterietabell innehåller de kriterier som används
+i utvärderingen, t ex baserat på några väl valda kvalitetsdimensioner
+som anses viktiga i just detta sammanhang. Kolumnerna innehåller de
+olika alternativ som utvärderats med avseende på kriterierna. I
+tabellelementen finns indikatorer som med ett mätetal eller på annat
+sätt karaktäriserar ett visst alternativ med avseende på ett visst
+kriterium.
+
+Vilka kriterier man ska använda är helt avgörande för utfallet. Vissa
+kriterier är lättare att mäta än andra. Ibland låter man subjektiva
+bedömningar ingå i bedömningen av kriterierna. Mätskalor som kan
+användas när kriterier ska ges värden behandlas i kapitel 6.3.5.
+
+Tabell 6.1. Kriterietabell
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+\begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\textbf{Kvalitetskriterier för\\
+musikspelare}\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\emph{Alternativ 1}:
+
+SuperPlayer\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\emph{Alternativ 2}:
+
+MyPlayer\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright\strut
+\emph{Alternativ 3}:
+
+MiniPlayer\strut
+\end{minipage}\tabularnewline
+\emph{Stöd för filformat} & Bäst & Stödjer alla viktiga format & Saknar
+många viktiga format\tabularnewline
+\emph{Överföringshastighet {[}kbps{]}} & 100 & 50 & 1000\tabularnewline
+\emph{Utseende} & Elegant & Plastig & Diskret\tabularnewline
+\emph{Ljudkvalitet} & 4 & 2 & 5\tabularnewline
+\emph{Storlek {[}bxhxd, mm{]}} & 50x100x10 & 50x10x50 &
+5x10x100\tabularnewline
+\emph{Pris {[}EUR{]}} & 999 & 99 & 1500\tabularnewline
+\bottomrule
+\end{longtable}
+
+Inom områdena beslutsteori och beslutsstödsystem finns en uppsjö olika
+metoder och angreppssätt för att sammanställa beslutsunderlag (Edlund et
+al. 1999). Ett typiskt exempel på en metod för att prioritera bland
+många olika objekt är \emph{Analytical Hierarchy Process} (Saaty 1980),
+där parvisa jämförelser och matrisberäkningar används för att ta fram
+relativa prioriteter på en ratio-skala. Enklare metoder på samma tema
+utgörs av rankning genom olika former av sortering eller genom att
+kategorisera jämförelseobjekten, till exempel genom att beskriva varje
+objekt på vars ett kort och låta olika intressenter dela upp korten i
+olika högar efter givna eller egendefinierade kriterier (eng. \emph{card
+sorting}).
+
+\section{Kvalitetsdimensioner }\label{kvalitetsdimensioner}
+
+Kvalitet är ett mångfacetterat begrepp med många olika tolkningar som
+beror av sammanhanget. Olika intressenter kan uppfatta kvalitet på olika
+sätt och när ett objekt ska utvärderas bör man noga tänka igenom vilka
+kvalitetsdimensioner som är relevanta och för vilka avnämare (kunder,
+marknadssegment, användare, sponsorer, beslutsfattare etc). Vad som är
+relevanta kvalitetsdimensioner beror också allmänt på om
+utvärderingsobjektet är en fysisk produkt, en tjänst, en programvara, en
+utvecklingsmetod eller en tillverkningsprocess.
+
+Tekniska system är ofta en komplex sammansättning av olika delar som
+samverkar. En produkt kan bestå av både elektronik, mekanik och
+programvara. Produktionen av produkten kanske kräver en komplex
+tillverkningsprocess som i sin tur kan innehålla flera komplexa tekniska
+system. Runt produkten kanske det finns ett tjänsteutbud med ett
+specialiserat IT-stöd och en supportorganisation med telefonisystem och
+webbstöd. Försäljning och distribution av produkten kanske också sker
+med stöd av tekniska system.
+
+På detta sätt ingår högteknologiska produkter ofta i en komplicerad
+struktur och att reda ut vilka kvalitetsdimensioner som är viktiga ur
+olika aspekter kräver ofta att man tar hänsyn till samverkan mellan
+flera system. I efterföljande delkapitel presenteras olika exempel på
+kvalitetsdimensioner ur olika synvinklar. Först presenterar vi
+dimensioner för systemkvalitet som baseras på standarden ISO9126 (2001).
+Därefter ger vi exempel på dimensioner som kan vara relevanta för fysisk
+produktkvalitet, tjänstekvalitet och processkvalitet.
+
+\emph{Hur kan man ha användning för dessa kvalitetsdimensioner i ett
+examensarbete?} I utvärderingsdelen av ett examensarbete måste man ta
+ställning till vilka kriterier som utvärderingen ska ske utifrån. Vad
+menas med ''bra'' och ''dåligt'' i det specifika sammanhanget? För att
+svara på dessa frågor behöver man ofta göra en grundlig utredning av vad
+god kvalitet innebär och detta medför i sin tur att kvalitetsdimensioner
+behöver definieras, undersökas och mätas. Vilka kvalitetsdimensioner är
+viktigast? Vilka mätetal karaktäriserar på ett giltigt sätt en viss
+kvalitetsdimension? Med utgångspunkt i relevanta kvalitetsdimensioner
+kan verktyg för datainsamling tillämpas, t ex GQM och mätskalor (se
+vidare kapitel 6.3). Kanske behövs simuleringar för att undersöka hur
+kvalitetsdimensioner samverkar? Då prototyputveckling sker (kapitel 6.4)
+är en djuplodande undersökning av kvalitetsdimensioner avgörande i
+planeringen och genomförandet. Analys (kapitel 6.5) och
+resultatvalidering (6.6) är ofta beroende av och kopplade till mätningar
+av kvalitetsdimensioner.
+
+Användningen av kvalitetsdimensioner är sällan oproblematisk. Det är
+svårt att hitta entydiga definitioner av de olika dimensionerna så att
+de inte överlappar varandra. Olika personer tolkar begreppen på olika
+vis och inom olika discipliner finns olika tradition i språkbruket. Det
+är ofta svårt att mäta kvalitetsdimensionerna och även om man lyckas
+definiera giltiga mått så är det inte alltid att ett sådant mått fångar
+hela kvalitetsupplevelsen ur användarsynvinkel. Ofta krävs många olika
+mått för att täcka olika aspekter av samma kvalitetsdimension. Olika
+kvalitetsdimensioner hänger ofta ihop och påverkar varandra genom
+komplexa inbördes beroenden både positivt och negativt. Till exempel kan
+användarvänligheten påverkas negativt av säkerhetshöjande funktioner. En
+snabbare produkt kanske innehåller komponenter som är mindre
+tillförlitliga. Om prestanda ökas så blir också användbarheten bättre.
+Förståelse för denna typ av komplexa beroenden kan betraktas som en
+kärnkompetens för ingenjörer och förmåga att göra goda avvägningar
+mellan kvalitetsdimensioner i en produktutvecklingssituation är en
+central del i begreppet ingenjörsmässighet.
+
+De listor med kvalitetsdimensioner som återges i efterföljande
+delkapitel är tänkta att utgöra startpunkter för djupare analyser. Även
+om de inte kan göra anspråk på att vara fullständiga används de
+efterföljande listorna med fördel som checklistor och inspirationskällor
+i arbetet med att ta fram specifika definitioner och mått på kvalitet.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Systemkvalitet
+\end{enumerate}
+
+Den internationella standarden ISO9126 (2001) föreslår en
+kvalitetsmodell ämnad att karaktärisera produktkvalitet för system som
+helt eller delvis bygger på programvara, men många av modellens
+kvalitetsdimensioner är tillämpbara allmänt på komplexa tekniska system
+som integrerar fysiska komponenter, tjänster och processer.
+
+Programvara är en speciell produkt, bland annat på grund av att
+kostnaden för mångfaldigande är i princip noll. Vidare är programvara
+svår att visualisera och följer inte fysikens lagar, exempelvis åldras
+inte programvara. Det är kanske på grund av programvarans speciella
+natur som man sett ett extra stort behov av att ta fram standardiserade
+kvalitetsdimensioner med en omfattande detaljnivå speciellt för
+programvara, för att på så sätt underlätta synliggörandet av kvaliteten
+hos denna immateriella produkt. I takt med att allt fler
+ingenjörsprodukter innehåller allt mer programvara blir
+kvalitetsmodeller för programvara allt viktigare.
+
+ISO9126-modellen är indelad i en hierarki med övergripande
+kvalitetsaspekter med tillhörande underkategorier och mätetal. Vi
+redovisar nedan modellens kvalitetsdimensioner i två nivåer (men
+hänvisar till standarden för detaljer kring mätetal):
+
+\textbf{Funktionalitet} (eng. \emph{functionality}). Hur är förmågan att
+tillhandahålla funktioner som uppfyller uttalade och underförstådda
+behov under specifika omständigheter? Denna dimension fokuserar på
+\emph{vad} systemet gör för att uppfylla behov, medan övriga dimensioner
+koncentrerar sig på \emph{hur} och i vilken utsträckning behov uppfylls.
+
+\begin{itemize}
+\item
+  \emph{Lämplighet} (eng. \emph{suitability}): Vilken är förmågan att
+  tillhandahålla en lämplig uppsättning funktioner för specifika
+  användningsändamål?
+\item
+  \emph{Noggrannhet} (eng. \emph{accuracy}): Vilken är förmågan att
+  tillhandahålla korrekta resultat med given precisionsgrad?
+\item
+  \emph{Samverkansförmåga} (eng. \emph{interoperability}): Hur väl
+  samverkar delsystem med omgivande system?
+\item
+  \emph{(Informations)säkerhet} (eng. \emph{security}): Kan systemet
+  skydda data så att endast auktoriserade personer kan läsa eller ändra
+  den?
+\end{itemize}
+
+\textbf{Tillförlitlighet} (eng. \emph{reliability}). Hur god är förmågan
+att upprätthålla en viss, specificerad (tillförlitlig, felfri,
+tillgänglig) funktion under specifika omständigheter?
+
+\begin{itemize}
+\item
+  \emph{Mognadsgrad} (eng. \emph{maturity}): Kan systemet undvika att
+  felyttringar uppkommer till följd av latenta fel i systemet? Ett
+  system med hög mognadsgrad har en lägre andel latenta fel och en lägre
+  sannolikhet för att bete sig felaktigt. Latenta fel i programvara
+  beror inte på åldrande utan på misstag i kravspecifikationer,
+  designdokument eller programmering.
+\item
+  \emph{Feltolerans} (eng. fault \emph{tolerance}): Kan systemets
+  funktion upprätthållas även om systemet påverkas av latenta fel eller
+  otillbörliga intrång?
+\item
+  \emph{Återhämtningsförmåga} (eng. \emph{recoverability}): I vilken
+  utsträckning kan systemet återhämta sig efter att felyttringar har
+  uppkommit?
+\end{itemize}
+
+\textbf{Användbarhet} (eng. \emph{usability}). Hur lätt är systemet att
+använda under specifika omständigheter för specifika användare?
+
+\begin{itemize}
+\item
+  \emph{Begriplighet} (eng. \emph{understandability}): Förstår
+  användarna vad systemet kan användas till och hur det används för en
+  speciell uppgift under specifika omständigheter?
+\item
+  \emph{Lärbarhet} (eng. \emph{learnability}): Hur lätt är det för
+  användarna att lära sig använda systemet?
+\item
+  \emph{Handhavande} (eng. \emph{operability}): Hur lätt är det för
+  användarna att handha, kontrollera och styra systemet?
+\item
+  \emph{Attraktivitet} (eng. \emph{attractiveness}): Hur attraktivt
+  upplevs systemet av användarna? Vilken är den subjektiva
+  tillfredsställelsen i användandet?
+\end{itemize}
+
+\textbf{Effektivitet} (eng. \emph{efficiency}). Vilken är förmågan att
+tillhandahålla ändamålsenlig prestanda i relation till mängden resurser
+som krävs under givna omständigheter?
+
+\begin{itemize}
+\item
+  \emph{Tidsbeteende} (eng. \emph{time behaviour}): Vilken är förmågan
+  att ge snabb respons, korta beräkningstider och god
+  genomströmningsgrad (eng. throughput rates)? Kallas ofta för snabbhet
+  men även för prestanda (eng. speed, performance).
+\item
+  \emph{Resursutnyttjande} (eng. \emph{resource utilisation}): Vilken är
+  förmågan att i ändamålsenligt utsträckning utnyttja tillgängliga
+  resurser av olika typ (exempelvis primärminne, diskutrymme,
+  bildskärmsminne etc.) Kallas ofta för kapacitet (eng. capacity).
+\end{itemize}
+
+\textbf{Underhållsbarhet} (eng. \emph{maintainability}). Hur lätt är det
+att ändra systemet, exempelvis vid korrigeringar, anpassningar, eller
+tillägg för att uppfylla nya krav?
+
+\begin{itemize}
+\item
+  \emph{Analyserbarhet} (eng. \emph{analysability}): Hur lätt är det att
+  diagnostisera bristfälligheter eller felorsaker? Hur lätt är det att
+  identifiera vilka delar som behöver modifieras?
+\item
+  \emph{Ändringsbarhet} (eng. \emph{changeability}): Hur lätt är det att
+  göra en specifik modifiering?
+\item
+  \emph{Stabilitet} (eng. \emph{stability}): Hur stor är risken att en
+  modifiering orsakar oväntade effekter?
+\item
+  \emph{Testbarhet} (eng. \emph{testability}): Hur lätt är det att
+  validera systemet? Hur lätt går det att avgöra om en modifiering
+  uppfyller krav och förväntningar?
+\end{itemize}
+
+\textbf{Portabilitet} (eng. \emph{portability}). Hur lätt är det att
+överföra systemet från en omgivning till en annan?
+
+\begin{itemize}
+\item
+  \emph{Anpassningsbarhet} (eng. \emph{adaptability}): Hur lätt är det
+  att anpassa systemet utan andra åtgärder än de som erbjuds av systemet
+  självt? Hur lätt är det att utöka kapaciteten eller att skala upp
+  systemet vid utbyggnad?
+\item
+  \emph{Installationsbarhet} (eng. \emph{installability}): Hur lätt är
+  det att installera systemet i sin specifika omgivning?
+\item
+  \emph{Samexistens} (eng. \emph{co-existence}): Hur lätt är det för
+  systemet att samverka med andra oberoende system i en gemensam
+  omgivning under samutnyttjande av gemensamma resurser?
+\item
+  \emph{Utbytbarhet} (eng. \emph{replaceability}): Hur lätt är det att
+  ersätta systemet med ett annat specifikt system i samma syfte i samma
+  omgivning?
+\end{itemize}
+
+\textbf{Uppfyllandegrad} (eng. \emph{compliance}). För vart och ett av
+kvalitetsdimensionerna ovan kan man ställa sig frågan: Hur uppfylls
+denna kvalitetsdimension i enlighet med standarder, konventioner,
+regleringar, lagar eller förordningar? Man talar då om t.ex.
+\emph{reliability compliance} och avser därmed gällande praxis för
+tillförlitlighetsregler i det specifika sammanhanget.
+
+\textbf{Kvalitet i användande} (eng. \emph{quality in use}). Hur väl
+stödjer systemet specifika användare i att uppnå specifika mål i
+specifika användningssammanhang? Denna övergripande dimension berör
+systemet som en komponent i ett större sammanhang där användare
+samverkar med systemets olika delar i en helhet, t ex en integration av
+delar som består av programvara, elektronik, eller mekanik.
+
+\begin{itemize}
+\item
+  \emph{Verkningsfullhet} (eng. \emph{effectiveness}): Vilken är
+  systemets förmåga att stödja användarna i uppfyllandet av specifika
+  mål, på ett noggrant och fullständigt sätt, i det specifika
+  användningssammanhanget?
+\item
+  \emph{Produktivitet} (eng. \emph{productivity}): Hur väl möjliggör
+  systemet att användarna förbrukar en rimlig mängd resurser (tid,
+  pengar), i relation till den uppnådda verkningsfullheten, i det
+  specifika användningssammanhanget?
+\item
+  \emph{(Person)säkerhet} (eng. \emph{safety}): Hur är systemets förmåga
+  att erbjuda en acceptabel säkerhetsnivå vad gäller risken att
+  människor, verksamhet, system, egendom eller miljö kommer till skada,
+  i det specifika användningssammanhanget?
+\item
+  \emph{Tillfredsställelse} (eng. \emph{satisfaction}): Hur god är
+  förmågan att tillfredsställa användare i specificerade
+  användningssammanhang?
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item
+    Fysisk produktkvalitet
+  \end{enumerate}
+\end{itemize}
+
+När en produkt eller del av produkt utgörs av fysiska komponenter, t ex
+maskinelement eller elektronik, är kvaliteten beroende av komponenternas
+fysikaliska egenskaper. Tillförlitligheten påverkas exempelvis av att
+komponenter åldras och slits. Kvaliteten kan oftast karaktäriseras genom
+fysikaliska mått, så som storlek, vikt, energi etc. Nedan följer exempel
+på kvalitetsdimensioner som kan vara viktiga för en fysisk produkt
+(Bergman och Klefsjö 2002):
+
+\begin{itemize}
+\item
+  \emph{Driftssäkerhet:} Hur ofta inträffar fel? Hur alvarliga är felen?
+\item
+  \emph{Prestanda:} Vilken effekt och effektivitet har varan, i termer
+  av t ex hastighet, livslängd, storlek?
+\item
+  \emph{Underhållsmässighet:} Hur lätt är det att upptäcka, lokalisera
+  och avhjälpa fel?
+\item
+  \emph{Miljövänlighet:} Hur påverkar produkten miljön, exempelvis i
+  form av avgaser eller återvinningsbarhet? Hur miljövänlig är
+  produktionen?
+\item
+  \emph{Utseende:} Hur vacker uppfattas produkten vara av olika
+  kundgrupper? Vilka estetiska värden skapas genom exempelvis design och
+  färgval?
+\item
+  \emph{Felfrihet:} I vilken utsträckning är varan behäftad med fel
+  eller brister?
+\item
+  \emph{Säkerhet:} Vilken är risken att varan orsakar skada på person
+  eller egendom? Är varan speciellt skyddad mot yttre påverkan?
+\item
+  \emph{Hållbarhet:} Kan produkten användas, lagras och transporteras
+  utan att den försämras eller kommer till skada?
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item
+    Tjänstekvalitet
+  \end{enumerate}
+\end{itemize}
+
+En tjänst är ett resultat som levereras av en utförare (leverantör) till
+en mottagare (användare). Ofta bygger tjänster på en kombination av
+arbetsinsatser utförda av människor och teknik i samarbete.
+Interaktionen mellan utförare och användare är ofta central för hur
+användaren uppfattar tjänstens kvalitet. Nedan följer exempel på
+kvalitetsdimensioner som kan vara viktiga för en tjänst (Zeithaml et al.
+1990, enl. Bergman och Klefsjö 2002):
+
+\begin{itemize}
+\item
+  \emph{Pålitlighet}: Hur jämnt är tjänstens resultat, t ex avseende
+  punktlighet och precision? Hur väl utförs det som utlovats?
+\item
+  \emph{Trovärdighet:} Kan man lita på leverantören?
+\item
+  \emph{Tillgänglighet:} Hur lätt är det att få kontakt med
+  leverantören?
+\item
+  \emph{Kommunikationsförmåga:} Hur god är leverantörens förmåga att
+  kommunicera med kunden på ett för kunden naturligt sätt som kunden
+  förstår?
+\item
+  \emph{Tjänstvillighet:} Hur väl upplevs viljan att hjälpa kunden?
+\item
+  \emph{Artighet:} Hur är leverantörens uppförande i form av hövlighet,
+  omtanke och vänlighet?
+\item
+  \emph{Inlevelseförmåga, empati:} Hur stor är leverantörens förmåga att
+  leva sig in i kundens situation?
+\item
+  \emph{Omgivning:} Hur är kvaliteten hos den miljö i vilken tjänsten
+  utförs, t ex utrustning och lokalernas utseende?
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item
+    Processkvalitet
+  \end{enumerate}
+\end{itemize}
+
+Många examensarbeten inom teknik handlar om att lösa problem, utveckla
+nytt, eller att förbättra i ett sammanhang där människan och tekniken
+samverkar. Det människor gör för att genomföra en viss verksamhet kallas
+allmänt för \emph{process}. Processer innefattar uttalade och outtalade
+aktiviteter som utförs av människor för att stödja verksamheten i en
+organisation eller ett företag. Ofta kan det viktigaste bidraget i ett
+examensarbete utgöras av en utredning av eller förslag på nya
+arbetssätt, metoder eller aktiviteter. I dessa sammanhang är processens
+kvalitet ofta central. Då kan följande kvalitetsdimensioner vara
+relevanta:
+
+\begin{itemize}
+\item
+  \emph{Effekt}: Hur stora är vinsterna med införandet av den nya
+  metoden? Hur stora kvalitetsförbättringar kan uppnås? Kan något helt
+  nytt åstadkommas som inte gick att genomföra tidigare?
+\item
+  \emph{Införandekostnad:} Vad kostar det att utbilda personalen? Vad
+  blir kostnaden för omorganisation till följd av införandet?
+\item
+  \emph{Användbarhet:} Hur lätt är metoden att lära sig? Hur väl stödjer
+  den användarna i sina arbetsuppgifter?
+\item
+  \emph{Automatiseringsgrad:} Hur stor andel av manuellt arbete kan
+  undvikas? Hur väl låter sig processen stödjas av datorbaserade
+  verktyg?
+\item
+  \emph{Acceptans}. I vilken utsträckning kommer användarna av metoden
+  att acceptera införandet och stödja förbättringsansträngningarna?
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item ~
+    \section{Datainsamling}\label{datainsamling}
+  \end{enumerate}
+\end{itemize}
+
+Datainsamlingen i ett examensarbete kan ske på olika sätt. I följande
+delkapitel presenteras hur man praktiskt går tillväga. Kontinuerligt
+under arbetet bör man föra \emph{loggbok} för att dokumentera vad man
+gör. Man kan undersöka förväntningar på arbetet och åsikter genom
+\emph{enkäter} och \emph{intervjuer}. Att beskriva hur något görs är
+ofta en startpunkt för ett examensarbete, t ex att beskriva ett
+arbetsflöde. \emph{Observationer} är ett sätt att samla in data för
+detta. \emph{Mätningar} kan omfatta såväl tekniska och fysikaliska
+aspekter, som organisatoriska. Ett examensarbete kan också innefatta
+\emph{data som andra samlat in}, och särskilda hänsyn behöver tas i
+detta fall. Genom att systematisera datainsamlingen kan man få ut mer av
+de mätningar man gör. \emph{Försöksplanering} är ett effektivt verktyg
+för att åstadkomma detta. Slutligen tar vi upp \emph{etiska och
+juridiska aspekter} på datainsamling och -användning.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Loggbok
+\end{enumerate}
+
+När man genomför sitt examensarbete samlar man medvetet eller omedvetet
+på sig en stor mängd data. Varje dag tar man in fakta från sin omvärld,
+bearbetar denna och väljer mellan alternativa vägar. En viktig del i
+examensarbetet är att kunna redogöra för dessa val och reflektera över
+dem. Detta kräver att man på något sätt dokumenterat sitt arbete. En
+\emph{loggbok} är ett enkelt och bra verktyg för att samla dessa data.
+
+Loggboken behöver inte innehålla alla detaljer. Det viktigaste är att
+dokumentera vad som gjorts och när. Möten, intervjuer etc är det viktigt
+att ha anteckningar från, men också arbete internt inom examensarbetet,
+t ex designbeslut bör dokumenteras. Om examensarbetet utförs till stor
+del vid datorn kan man överväga en elektronisk loggbok, men t ex i möten
+och fältstudier är en pappersbaserad loggbok att föredra.
+
+En av examensarbetets delar som är viktig att dokumentera är inläsningen
+av litteratur och annat bakgrundsmaterial. Det kan vara bra att
+dokumentera i loggboken att den görs och när det sker, medan resultatet
+av inläsningen dokumenteras i rapportens teorikapitel med tillhörande
+referenslista.
+
+Loggboken är en datakälla som används i arbetet, men den publiceras inte
+i rapporten.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Enkäter
+\end{enumerate}
+
+Enkäter kan användas för att samla in åsikter och uppfattningar från en
+större grupp människor. En enkät är ett frågeformulär med huvudsakligen
+fasta frågor, oftast med fördefinierade svarsalternativ. Den som svarar
+på enkäten fyller i svaren själv och returnerar sedan enkäten. Man kan
+distribuera en enkät på olika sätt (Ejlertsson 2005):
+
+\begin{itemize}
+\item
+  \emph{Postenkät:} sänds ut på papper och returneras via frankerat
+  svarskuvert.
+\item
+  \emph{Gruppenkät:} distribueras till personer som regelbundet samlas
+  på ett ställe, t ex en arbetsplats.
+\item
+  \emph{Enkät till besökare:} delas ut till personer som självmant söker
+  sig till en viss lokal, t ex en affär, eller en webbsida. Urvalet
+  styrs naturligtvis av att personen valt att komma till denna lokal
+  eller besöka denna webbsida.
+\item
+  \emph{Datorenkät:} enkäten eller en länk till enkäten på en server
+  distribueras t ex via e-post.
+\item
+  \emph{Enkät för den intresserade:} delas ut som bilaga till en tidning
+  eller med en produkt. Till samma kategori hör enkäter som ställs till
+  tittare som ser på ett visst TV-program. Här har man ingen kontroll
+  över vem som svarar på enkäten.
+\end{itemize}
+
+Grunden för hur enkätresultaten kan användas och generaliseras ligger i
+hur \emph{urvalet} gjorts, dvs hur intervjupersonerna valts ut ur den
+\emph{population} eller \emph{urvalsram} man vill undersöka. Som ett
+första steg behöver man veta exakt vilken population undersökningen
+gäller. Om undersökningen gäller alla studenter vid ett visst
+universitet i ett visst ämne under en viss tidsperiod, får man utgå från
+en lista över dessa. Om undersökningen gäller en bredare population, t
+ex ungdomar i Sverige i åldern 15-20 år blir det svårare att få en bra
+förteckning över population. Den svenska offentlighetsprincipen gör dock
+att man kan få ut ganska mycket information som finns hos myndigheter.
+
+Ur sin förteckning över den undersökta populationen väljer man ut vilka
+enkäten ska sändas till, enligt någon av följande principer (Ejlertsson
+2005; Rosengren och Arvidson 2002).
+
+\begin{itemize}
+\item
+  \emph{Totalundersökning:} Man sänder enkäten till samtliga i
+  populationen. Detta är praktiskt möjligt endast för små populationer.
+\item
+  \emph{Obundet slumpmässigt urval:} Man väljer med hjälp av slumptal ut
+  en delmängd ur populationen. Varje individ har samma sannolikhet att
+  väljas ut för att resultaten ska bli representativa.
+\item
+  \emph{Systematiskt urval:} Man väljer ut var N:te individ om man ska
+  välja ut enligt proportionen 1/N. Risken med detta angreppssätt är om
+  det finns någon periodicitet i listan, t ex om man väljer var 20:e
+  lägenhetsinnehavare i femvåningshus med fyra lägenheter i varje plan,
+  så väljer man hela tiden ut personer som bor på samma våning.
+\item
+  \emph{Klusterurval} (kallas också tvåstegsurval): Om populationen är
+  naturligt grupperad i kluster, t ex boende i trappuppgångar, kan man
+  först välja ut vilka trappuppgångar man ska studera, och sedan vilka
+  av de boende i dessa trappuppgångar man sänder enkäten till. Urvalen
+  sker i båda stegen med slumpmässigt urval. Klusterurvalet kan
+  underlätta den praktiska hanteringen av enkäten, eftersom man kan få
+  de utvalda personerna geografiskt mer samlade.
+\item
+  \emph{Stratifierat urval} påminner om klusterurval, men här finns det
+  en systematisk skillnad mellan klustren. Klustren tillhör olika
+  kategorier, eller strata. Om delar av populationen bor i hyreshus och
+  delar av den i villor, utgör dessa två naturliga strata. Ur dessa
+  strata väljer man sedan personer för enkäten. Stratifierat urval är
+  särskilt tillämpligt om kategorierna har olika storlek. Urvalsandelen
+  behöver inte vara lika stor i alla strata.
+\end{itemize}
+
+När man valt ut sitt urval för undersökningen vill man att så många som
+möjligt av dessa faktiskt svarar på enkäten, dvs. att \emph{bortfallet}
+är så litet som möjligt. De som inte svarar alls på enkäten brukar
+benämnas \emph{externt bortfall}, och enstaka frågor i enkäten som inte
+besvaras benämns \emph{internt bortfall}. Man bör inte kompensera för
+ett bortfall genom att välja ut nya personer, eftersom det påverkar
+slumpmässigheten i urvalet. Däremot kan påminnelser och belöningar, t ex
+i form av vinstchanser, minska det externa bortfallet. Om bortfallet
+trots påminnelser är stort, kan man dra ett slumpmässigt urval ur
+bortfallet, ringa upp dessa och ställa några nyckelfrågor, för att på så
+sätt kategorisera bortfallet. Det interna bortfallet reduceras främst
+genom hur enkäten utformas.
+
+Själva kärnan i genomförandet av en enkät är utformningen av frågorna.
+Det finns en lång rad aspekter att ta hänsyn till (Ejlertsson 2005):
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
+Enkelhet i språket
+
+Entydiga frågor
+
+Precisa i tid och rum
+
+Ej ledande frågor
+
+Undvik (dubbla) negationer
+
+Undvik kunskapsfrågor
+
+En fråga åt gången
+
+Ett svar åt gången\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright\strut
+Korta, koncisa frågor
+
+Ej alltför känsliga frågor
+
+Ömsesidigt uteslutande svar
+
+Uttömmande svarsalternativ
+
+Ordning på svarsalternativen
+
+Symmetri i svarsalternativen
+
+Neutrala svarsalternativ
+
+Undvik hypotetiska frågor\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+En enkät kan innehålla frågor som förväntar kvantitativa svar, t ex
+''hur gammal?'', ''hur ofta?'' Lite mer komplicerat blir det när man
+vill få svar på frågor om åsikter, attityder och känslor. Då får man
+konstruera mätskalor, t ex exempel visuell analogskala och
+Likert-skalan.
+
+I en visuell analogskala presenteras två ytterligheter längs en linje
+som t ex är 100 mm lång, se figur 6.1. Personen som besvarar enkäten får
+markera sitt svar med ett kryss längs linjen. Svaret tolkas i termer av
+avstånd från ena ändpunkten.
+
+Med en Likert-skala (uttalas {[}Lickert{]}) låter man svarspersonen ta
+ställning till ett påstående. Skalan är fem- eller sjugradig och spänner
+från ''instämmer helt'' till ''instämmer inte alls'', alternativt ''tar
+helt avstånd'', se tabell 6.2.
+
+När man utformat enkäten är det viktigt att man provar den på en mindre
+grupp innan den distribueras till hela urvalsgruppen. Därigenom kan man
+få synpunkter på frågornas utformning och hjälp att identifiera
+eventuella oklarheter och felaktigheter.
+
+Inbjudan till enkäten bör ske i ett följebrev, antingen på papper eller
+via e-post. Följebrevet bör innehålla följande information (Ejlertsson
+2005):
+
+\begin{itemize}
+\item
+  Syfte med undersökningen
+\item
+  Varför personen valts ut
+\item
+  Information om att enkäten är frivillig
+\item
+  Svarsrutiner och tidsgränser
+\item
+  Konfidentialitet
+\item
+  Kontaktperson
+\end{itemize}
+
+Brevet kan med fördel skrivas på ett företags eller en högskolas
+brevpapper och signeras av den som gör examensarbetet och av
+handledaren. Det bidrar till ett intryck av professionalism som kan öka
+svarsfrekvensen. Enkäter som skickas ut via e-post bör skickas från en
+företags- eller högskoleadress, inte från privatadresser.
+
+Påminnelsebrev som sänds ut bör vara ganska kortfattade, sammanfatta
+syftet med studien och hänvisa till den tidigare utsända enkäten.
+
+Tabell 6.2. Enkätfrågor med Likert-skala
+
+\begin{longtable}[]{@{}lllllll@{}}
+\toprule
+Påstående & Instämmer helt & Instämmer delvis & Neutral & Instämmer inte
+& Instämmer inte alls & Inte tillämpligt\tabularnewline
+Jag tycker att mina studier är mycket stimulerande & & X & & &
+&\tabularnewline
+\ldots{} & & & & & &\tabularnewline
+Mina lärare är mycket intressanta att lyssna till & X & & & &
+&\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Intervjuer
+\end{enumerate}
+
+För att få in bakgrundsmaterial till ett examensarbete och att få
+synpunkter på ett förslag till lösning kan man genomföra intervjuer. En
+intervju är en mer eller mindre systematisk utfrågning av
+intervjupersoner kring ett visst tema. Frågesvaren antecknas eller
+spelas in på något ljudmedium. Intervjuer kan ske via telefon eller i
+direkt möte mellan intervjuaren och intervjupersonen. Liksom för enkäten
+väljs intervjupersonerna ut genom \emph{urval} ur en population. Om
+intervjun utgör en kvalitativ studie som inte fokuserar på
+representativitet är inte urvalets fokus på slumpmässigt urval, utan mer
+på att urvalet täcker den variation som finns i populationen. Urvalet
+sker då med stratifiering, dvs ett antal kategorier av personer
+definieras och intervjupersoner väljs ut från dessa kategorier. T ex kan
+kategorier vara män-kvinnor, nyanställda-erfarna, chefer-teknikpersoner.
+Eftersom urvalet då inte är slumpmässigt kan man inte dra generella
+slutsatser om populationen som man gör sitt urval från. Däremot kan man
+utforska området kvalitativt på djupet.
+
+Intervjuer kan som nämnts i kapitel 3.3 ha olika grad av struktur.
+Tabell 6.3 presenterar en översikt av den öppet riktade, den
+halvstrukturerade och den strukturerade intervjuformen.
+
+Tabell 6.3. Översikt över olika typer av intervjuer (Lantz 1993 och
+Rosengren och Arvidson 2002)\footnote{Källorna presenterar också en helt
+  öppen typ, men den utelämnas här eftersom examensarbeten i sig antas
+  ha en avgränsning som utesluter den helt öppna intervjutypen.}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& \textbf{Öppet riktad} & \textbf{Halvstrukturerad} &
+\textbf{Strukturerad}\tabularnewline
+Mål & Individens upplevelse av ett fenomens kvaliteter & Individens
+upplevelse av kvantiteter och kvaliteter & Intervjuaren söker kunskap om
+relationen mellan begrepp, om samband\tabularnewline
+Uppläggning & Intervjuguide, öppet inom valda frågeområden & Blandat
+fasta frågor med bundna svar, och öppna frågor & Fasta frågor med bundna
+svar\tabularnewline
+Syfte & Utforskande &
+\vtop{\hbox{\strut Beskrivande/}\hbox{\strut förklarande}} &
+\vtop{\hbox{\strut Beskrivande/}\hbox{\strut förklarande}}\tabularnewline
+\bottomrule
+\end{longtable}
+
+En \emph{öppet riktad} intervju styrs av en intervjuguide med
+frågeområden. Frågorna kan ställas med olika formuleringar och i olika
+ordning i olika intervjuer. Intervjun kan till stor del styras av vilka
+delområden som intervjupersonen är mest benägen att berätta om. Man ska
+dock vara medveten om risken att personen gör det för att den inte vill
+prata om andra delområden. För att säkerställa att varje delområde får
+ett minimum av behandling i varje intervju, kan man avsätta hålltider
+för olika delområden inom intervjuns ram. En öppet riktad intervju bör
+spelas in på ett ljudmedium, eftersom den öppna karaktären gör att man
+kan komma att få information inom helt andra områden än man tänkt sig
+från början. Det är då angeläget att kunna gå tillbaka till det
+inspelade ljudet för att höra vad intervjupersonen faktiskt sa. Denna
+typ av intervju är också kvalitativ till sin karaktär, och då utgör ord
+och beskrivningar de data man får ut från intervjun.
+
+I den \emph{halvstrukturerade} intervjun blandar man öppet riktade
+frågor med fasta frågor som har bundna svarsalternativ. För frågorna med
+fasta svarsalternativ är det viktigt att man ställer dem med samma
+formuleringar och i samma ordning i varje intervju. Annars riskerar man
+med sina formuleringar att påverka intervjupersonen på olika sätt.
+
+Den \emph{strukturerade} intervjun är i princip en muntlig enkät.
+Fördelen med att genomföra en enkät muntligt är att den svarande inte
+behöver fylla i svaren själv, samt att man har möjligheten att få oklara
+frågor förtydligade. Risken för internt bortfall minskar om man genomför
+enkäten som en strukturerad intervju. Nackdelen är naturligtvis att det
+tar mycket mer tid för intervjuaren att kontakta varje person och gå
+igenom frågelistan.
+
+De olika typerna av intervjuer kan kombineras inom en studie. T~ex kan
+en öppet riktad intervju användas för att ta fram underlag för en
+frågelista som sedan används i en strukturerad intervju eller som enkät.
+Man kan också följa upp en enkät med en öppet riktad intervju till
+personer som svarat på ett visst sätt på enkäten, för att öka
+förståelsen kring det undersökta fenomenet.
+
+Genomförandet av en intervju kan delas in i fyra faser:
+
+\begin{itemize}
+\item
+  Sammanhang
+\item
+  Inledande frågor
+\item
+  Huvudfrågor
+\item
+  Sammanfattning
+\end{itemize}
+
+Intervjun börjar med att intervjuaren beskriver intervjuns
+\emph{sammanhang}. Vad är syftet? Varför är personen utvald för
+intervju? Hur hanteras och bearbetas det sagda? Om intervjun ska spelas
+in ska man i denna fas söka samtycke till det från intervjupersonen.
+
+Som \emph{inledning} till frågorna bör man ställa några grundläggande
+och neutrala frågor, t ex om ålder, utbildning och arbetsuppgifter.
+Frågesvaren behövs för att sätta intervjupersonen i rätt kontext, men de
+bidrar också till att få igång samtalet med intervjupersonen kring
+frågor som har enkla och raka svar.
+
+\emph{Huvudfrågorna} i intervjun bör ställas i en ordning som upplevs
+logisk för den som blir intervjuad, vilket kanske inte är samma ordning
+som intervjuaren finner mest logisk. Mot slutet av huvudfrågorna är det
+lämpligt att gå över mot närliggande och neutrala frågor igen, särskilt
+om intervjun berört personliga frågor, för att skapa en positiv stämning
+och möjliggöra fortsatt samverkan.
+
+Till sist \emph{sammanfattas} intervjun av intervjuaren i korta drag,
+och möjlighet ges för intervjupersonen att lägga till något som den
+upplever saknas. Slutligen repeteras förutsättningarna för intervjun och
+rutiner för eventuell återmatning till intervjupersonen bestäms.
+
+Intervjuer kan spelas in på valfritt ljudmedium, men för den kommande
+analysen är digitala ljudmedier att föredra, eftersom det är lättare att
+navigera i dem. En bärbar PC med mikrofon ger ofta tillräcklig
+ljudkvalitet för en intervju. Det är viktigt att i förväg prova ut att
+tekniken fungerar även för långa intervjuer.
+
+Som komplement till inspelningen kan man föra anteckningar under
+intervjun. Detta är särskilt lämpligt om man är två personer som
+genomför intervjun. I minnesanteckningarna får man en första indikation
+på vad man uppfattar som viktigt i det som kommer fram i intervjun.
+
+Efter intervjun bör man transkribera det inspelade materialet, dvs
+skriva ut det sagda, ord för ord. Detta är en tidskrävande och mödosam
+process -- en timmes intervju tar 8-10 timmar att skriva ut -- men det
+lägger grunden den djupgående analysen av materialet, se kapitel 6.6.2.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Observationer
+\end{enumerate}
+
+För att studera ett fenomen eller ett skeende i ett examensarbete kan
+man använda direkta observationer. Det innebär att man med sina sinnen
+eller med tekniska hjälpmedel samlar in data om vad som sker i olika
+situationer. Som observatör kan man ha olika grad av interaktion med det
+studerade fenomenet, från att vara en aktiv deltagare i fenomenet till
+att vara en ren observatör. De som blir observerade kan ha olika grad av
+medvetenhet om att de är observerade. Observatören kan vara allt från
+helt maskerad till helt öppen som observatör. Tabell 6.4 sammanfattar de
+fyra fall som uppträder när man kombinerar dessa två faktorer (Rosengren
+och Arvidson 2002).
+
+Tabell 6.4 Fyra kategorier av observationer.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+& \textbf{Kunskap om att vara observerad}\tabularnewline
+\textbf{Interaktion} & \emph{Hög}\tabularnewline
+\emph{Hög} & Observerande deltagare\tabularnewline
+\emph{Låg} & Deltagande observatör\tabularnewline
+\bottomrule
+\end{longtable}
+
+En \emph{observerande deltagare} försöker att bli så integrerad i den
+observerade gruppen som möjligt. Gruppen är väl medveten om att
+observatören finns där. Datainsamlingen sker t ex via
+loggboksanteckningar.
+
+En \emph{fullständigt deltagande} observatör är också en integrerad del
+av den observerade gruppen. Däremot försöker man så lite som möjligt
+visa att man är en observatör. Även i detta fall sker datainsamlingen
+via loggbok och liknande.
+
+Den \emph{deltagande observatören} finns med i sammanhanget, utan att
+vara en riktig del av det. Man gör inga försök att dölja att man är en
+observatör, utan data kan samlas in med öppna metoder t ex intervjuer.
+Man kan också samla in data med ''tänk-högt''-metoder. Det innebär att
+den observerade personen uppmanas berätta högt hur den resonerar kring
+sitt handlande, vilket spelas in för senare analys.
+
+Den \emph{fullständiga observatören} tar inte del i verksamheten, och är
+idealt helt osynlig. Datainsamling sker helt dolt, t ex via kamera och
+bandupptagning.
+
+I de fall där observatören är synlig finns naturligtvis en risk att man
+påverkar det observerade fenomenet. I de fall där de observerade
+personerna är omedvetna om observatören, blir de etiska
+frågeställningarna snabbt aktuella.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Mätningar
+\end{enumerate}
+
+''Att mäta är att veta'' är en devis som ibland citeras för att
+argumentera för kvantitativa mätningar. I ett examensarbete behöver man
+ofta mäta såväl fysikaliska storheter, som mjukare aspekter t~ex på
+organisationer. Utan att värdera olika slags mätningar presenteras här
+en del översiktliga råd kring kvantitativa mätningar.
+
+Mätningar innebär att koppla tal eller beteckningar till attribut som
+beskriver något fenomen. Mätningarna görs för att beskriva fenomenet
+enligt definierade regler (Fenton och Pfleeger 1996). När det gäller
+fysikaliska mätningar är detta naturligt för de flesta. Längden på t ex
+ett bord är 1,00 m, vilket är definierat som den sträcka, som ljuset
+tillryggalägger i absolut vakuum under 1/299 792 458 sekund. Vidare
+anger antalet värdesiffror den noggrannhet som mätningen är utför med.
+
+Data som samlas in kan betraktas som ett mätvärde på en skala. Det finns
+fyra skaltyper, som nedan presenteras från ''låg'' till ''hög'':
+
+\begin{itemize}
+\item
+  \emph{Nominalskala:} kategorisering av det observerade i olika
+  klasser, t ex röd, gul, grön.
+\item
+  \emph{Ordinalskala:} rangordning av entiteter baserad på ett
+  kriterium, t ex bättre än, mer komplex.
+\item
+  \emph{Intervallskala:} en rangordning där också skillnaden mellan
+  nivåerna har en mening, t ex temperatur på en Celsiusskala.
+\item
+  \emph{Kvotskala:} en skala där det finns en meningsfull nollpunkt.
+  Därmed får kvoten mellan två mätningar en innebörd, t~ex temperatur på
+  en Kelvinskala.
+\end{itemize}
+
+Mätningar kan vara \emph{direkta} eller \emph{indirekta}. Direkta
+mätningar är t~ex längdmätningar. En sträcka mäts med en linjal och
+mätresultatet läses av direkt. Hastighetsmätningar är indirekta. Man
+mäter en sträcka, samt tiden det tar att förflytta sig denna sträcka,
+och räknar ut hastigheten som kvoten mellan sträcka och tid.
+
+I mätningar av fysikaliska fenomen är det viktigt att vara noggrann med
+mätutrustningen. I alla mätningar uppträder fel som man vill reducera så
+mycket som möjligt för att få fram det verkliga värdet. Mätfel brukar
+delas in i tre grupper (Jönsson och Reistad 1987), se figur 6.2:
+
+\begin{itemize}
+\item
+  \emph{Grova fel:} rejäla misstag som beror på fel i avläsning, fel i
+  protokollförandet och liknande. De utmärks genom att radikalt avvika
+  från den övriga mätserien.
+\item
+  \emph{Systematiska fel:} fel som alltid uppträder och som orsakas av
+  någon konstant störning på mätsituationen.
+\item
+  \emph{Tillfälliga fel:} små slumpmässiga variationer kring det sanna
+  värdet.
+\end{itemize}
+
+En fördjupad beskrivning av elektriska mätsystem ges t ex av Bengtsson
+(2003).
+
+Mätningar som berör människor eller organisationer medför andra krav. T
+ex att mäta arbetstid kan göras väldigt olika, beroende på syftet, hur
+begreppet definieras och hur mätningarna utförs. Menar man den effektiva
+tiden då man arbetar aktivt med en arbetsuppgift? Menar man tiden man
+befinner sig på arbetsplatsen? Syftar mätningen till att effektivisera
+arbetet, dvs att några personer kan friställas? Rapporterar den
+anställde tiden själv, eller har man stämpelklocka? Osv.
+
+För att få lite tydligare struktur kring mätningar är det lämpligt att
+använda GQM-metoden (Goal/Question/Metric) (Basili et al 1994, van
+Solingen och Berghout 1999). GQM-metoden består av tre huvudfaser, se
+figur 6.3:
+
+\begin{itemize}
+\item
+  \emph{Definition av mätningar} definierar och dokumenterar mål,
+  frågor, mått och hypoteser (mer om detta nedan).
+\item
+  \emph{Datainsamling} samlar in data från det mätta objektet.
+\item
+  \emph{Tolkning av data} tolkar data i form av svar på de ställda
+  frågorna.
+\end{itemize}
+
+Definitionsfasen, som har gett GQM-metoden dess namn, är den mest
+centrala. För mätningarna definieras ett antal övergripande mål. Ett mål
+kan definieras enligt följande mall där de kursiva orden utgör den
+generella mallen:
+
+\emph{Analysera} tjänsten X
+
+\emph{med syfte att} förstå och förbättra
+
+\emph{med fokus på} pålitligheten i leveransen
+
+\emph{med utgångspunkt från} kunden
+
+\emph{i kontexten} av företag Y
+
+Utifrån måldefinitionen ställs ett antal frågor som preciserar målet.
+
+\begin{itemize}
+\item
+  Vilka arbetssteg genomlöps för att utföra tjänsten?
+\item
+  Hur lång tid tar varje steg?
+\item
+  Hur lång tid planeras för varje steg?
+\item
+  Hur är stegen beroende av varandra?
+\item
+  Hur stora är variationerna mellan olika kunder?
+\end{itemize}
+
+För varje fråga ställer man upp en hypotes, vad man tror svaret är. Det
+viktiga är att man konkretiserar ett möjligt svar för att sedan gå över
+till det tredje steget och definiera mått.
+
+Måtten specificerar de data som ska samlas in. För mätningar som utförs
+manuellt och på organisationer är det viktigt att man också definierar
+\emph{vem} som ska samla in mätdata, och \emph{när} de ska samlas in.
+
+Som slutresultat från definitionsfasen får man ett ''GQM-träd'', se
+figur 6.4. Trädet definieras från mål via frågor till mått och måtten
+tolkas som svar på frågorna och leder till att målet uppfylls.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Data som andra samlat in
+\end{enumerate}
+
+För att snabba upp undersökningsprocessen eller för att överhuvudtaget
+få tillgång till data kan man behöva använda sådana data i sitt
+examensarbete som andra samlat in. Rosengren och Arvidson (2002, s
+374-393) skiljer på fyra typer av data som andra samlat in:
+
+\begin{itemize}
+\item
+  \emph{Bearbetat material:} data som samlats in och bearbetats i ett
+  vetenskapligt sammanhang, t ex i akademiska publikationer och
+  avhandlingar.
+\item
+  \emph{Tillgänglig statistik:} data som samlats in och bearbetats men
+  där man inte dragit några slutsatser från analysen. Statistiska
+  centralbyrån (www.scb.se) publicerar regelbundet statistik kring olika
+  företeelser i samhället.
+\item
+  \emph{Registerdata:} data som samlats in för något syfte och är
+  tillgänglig i obearbetat format. Ett kundregister i ett företag är ett
+  exempel på registerdata.
+\item
+  \emph{Arkivdata:} data som inte är systematiserad som data, t ex
+  protokoll, korrespondens och projektdokumentation.
+\end{itemize}
+
+Gemensamt för dessa data är att de har samlats in med ett annat syfte än
+den aktuella studien har, och att de är insamlade av andra personer.
+Därför är det viktigt att kritiskt värdera såväl material som analyser.
+I övrigt kan man använda samma metoder för analys av denna typ av data,
+som för data som man samlat in själv.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Försöksplanering
+\end{enumerate}
+
+Om man i sitt examensarbete ska undersöka olika faktorers påverkan på
+ett fenomen och man kan styra faktorer eller kombinationer, får man
+snabbt stora mängder av kombinationer av faktorer. Detta gäller t~ex för
+experiment och simuleringsstudier. I stället för att variera en faktor i
+taget och undersöka dess effekt kan man använda systematiska metoder för
+försöksplanering som gör att man kan variera flera faktorer samtidigt
+och ändå få ut kunskap om såväl hur de påverkar fenomenet en och en, som
+hur de påverkar varandra (Bergman och Klefsjö 2002 s 83-98; Montgomery
+2005). Teorin bakom försöksplanering är ganska omfattande och här
+beskriver vi endast den praktiska användningen av metoden.
+
+Man börjar med att upprätta en försöksplan som beskriver vilka faktorer
+man vill variera och vilka värden eller nivåer på faktorerna man vill
+undersöka. Faktorerna kan påverka en och en, men kan också påverka i
+kombination med varandra, t~ex parvis. Detta kallas att faktorerna
+samspelar. Som ett exempel visas här ett försök med tre faktorer (A, B
+och C) med vardera två nivåer (+,--). Tabell 6.5 visar de delförsök som
+behöver utföras för ett fullständigt faktorförsök. I tabellen visas
+också vilka nivåer som de samspelande faktorerna får (AxB, AxC, BxC och
+AxBxC), samt mätresultatet på ett tänkt försök (y). De samspelande
+faktorerna får det tecken som produkten av de samspelande faktorerna
+har. Den första raden visar t ex att om A och B är negativa blir
+samspelets tecken positivt.
+
+Tabell 6.5 Delförsök för ett exempel på fullständigt faktorförsök med
+tre faktorer.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Delförsök & Faktorer och samspel\tabularnewline
+& A\tabularnewline
+1 & --\tabularnewline
+2 & +\tabularnewline
+3 & --\tabularnewline
+4 & +\tabularnewline
+5 & --\tabularnewline
+6 & +\tabularnewline
+7 & --\tabularnewline
+8 & +\tabularnewline
+Skattad effekt & f(A)\tabularnewline
+\bottomrule
+\end{longtable}
+
+Effekten av en faktor skattas genom medelvärdet av de parvisa
+skillnaderna mellan försök med nivå + respektive --. För faktor A, t~ex
+är skattningen medelvärdet av
+\emph{y\textsubscript{2}--y\textsubscript{1},
+y\textsubscript{4}--y\textsubscript{3},
+y\textsubscript{6}--y\textsubscript{5}} och
+\emph{y\textsubscript{8}--y\textsubscript{7}}. Dessa fyra par har
+faktorerna B och C på samma nivå medan A varieras från + till --.
+Skattningen av effekten av faktor A blir då enligt formeln:
+
+På samma sätt beräknas skattningen av effekten av de andra faktorerna
+eller samspelet mellan faktorerna, genom en fjärdedel av summan av
+mätresultaten multiplicerat med tecknet för motsvarande faktor eller
+samspel mellan faktorerna.
+
+För ett \emph{reducerat faktorförsök} med tre faktorer och två nivåer
+kan försöksmatrisen se ut enligt tabell 6.6.
+
+Tabell 6.6 Delförsök för ett exempel på reducerat faktorförsök med tre
+faktorer.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Delförsök & Faktorer och samspel\tabularnewline
+& A\tabularnewline
+1 & --\tabularnewline
+2 & +\tabularnewline
+3 & --\tabularnewline
+4 & +\tabularnewline
+Skattad effekt & f(A)\tabularnewline
+\bottomrule
+\end{longtable}
+
+Faktorerna skattas nu med samma principiella formel, som för faktor A
+och fyra delförsök blir enligt följande:
+
+Det man förlorar jämfört med det fullständiga faktorförsöket är att nu
+kan man inte skilja från effekten av faktorn C och samspelet mellan A
+och B -- båda kolumnerna har samma tecken i alla rader. Om man vill
+undersöka detta vidare kan man lägga till nya delförsök. I studie med
+flera faktorer kan man börja med en serie delförsök och sedan undersöka
+de faktorer som har störst absolutbelopp av den skattade effekten genom
+nya försöksserier. Man kan också skatta variansen för effekten genom att
+upprepa försöken igen. Den teoretiska bakgrunden och mer kring praktisk
+användning av faktorförsök kan t ex återfinnas i Montgomery (2005).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Etik och juridik i datainsamlingen
+\end{enumerate}
+
+I ett examensarbete ställs man förr eller senare inför etiska
+överväganden. Det gäller i relationen till uppdragsgivaren och till
+personerna som lämnar uppgifter till studien på ett eller annat sätt.
+Det finns sällan klara ja- eller nej-svar på etiska frågor. Just därför
+är det viktigt att på förhand tänka igenom vilka riktlinjer man ska
+följa i sin studie.
+
+Etiska frågor som uppkommer i relation till uppdragsgivaren för studien
+kan handla om publicering av det insamlade materialet. När det gäller
+sekretessfrågor bör detta regleras i ett avtal mellan uppdragsgivaren
+och den som genomför studien. Detta avtal får dock inte förhindra
+publicering av resultat, bara under vilka former det ska publiceras, t
+ex anonymiserat. En viktig etisk aspekt är att man följer ett sådant
+uppställt avtal. Men om studien visar resultat som är till
+uppdragsgivarens nackdel, hur hanterar man det? Eller om man under
+studien upptäcker något som är olagligt?
+
+Som examensarbetare bör man naturligtvis vara lojal mot sin
+uppdragsgivare, men lojaliteten har också sina gränser. Om man
+misstänker att uppdragsgivaren är utanför lagens ramar bör man, om inte
+annat så för sin egen del, slå larm. En person som slår larm till
+myndigheter eller pressen brukar betecknas ''whistle-blower'', alltså en
+som ''visslar i visselpipan''. Det är ett svårt beslut att fatta, och
+kan få konsekvenser för anställning och framtida karriär, men valet att
+inte larma kan få ännu större konsekvenser. I en valsituation bör
+handledaren från högskolan kunna ge stöd.
+
+Etiska frågor i relation till personerna som lämnar uppgifter till
+undersökningen är fler, men de flesta är lite mer konkreta och därmed
+lättare att ta ställning till.
+
+En grundprincip är att deltagande i studier ska vara frivilligt. En
+person ska inte tvingas att delta i studien mot sin vilja. I t ex
+enkätstudier är detta ganska tydligt. Enkäter skickas ut till
+medlemmarna i urvalsgruppen och de returneras besvarade endast om
+personen så vill. I studier av observationstyp är gränserna mindre
+klara. En fullständigt deltagande observatör eller en fullständig
+observatör (se tabell 6.4) vill ju märkas så lite som möjligt och önskar
+därför inte informera de observerade personerna om studien. Den etiska
+principen bör ändå överväga. Man bör ha ett medgivande, men detta
+medgivande kan omfatta rätten att observera personen inom ett
+tidsintervall, utan att exakt specificera när observationen sker inom
+tidsintervallet. I vissa länder, t ex i USA, finns det lagkrav på
+dokumenterat medgivande från personerna i form av en s k ''consent
+form'' (Robson 2002, s 380). Studier där de observerade personernas
+identiteter inte samlas in omfattas naturligtvis inte av denna princip,
+t ex observationer i en trafiksituation av hur många som använder
+cykelhjälm.
+
+En viktig etisk princip är att skydda individens integritet. Detta kan
+åstadkommas genom att i så hög grad som möjligt använda kodad
+information om individer. I stället för att skriva den intervjuades namn
+kan ett kodnamn eller en beteckning användas. Eftersom den svenska
+offentlighetsprincipen gäller för högskolor och universitet bör man göra
+detta även i sådant som betraktas som arbetsmaterial. När det gäller
+kodning är det värt att notera att en karaktärisering av en person eller
+ett företag kan avslöja lika mycket som namnet. T ex en person i en
+liten grupp människor kan lätt identifieras med hjälp av kön och
+yrkesroll och ''ett stort svenskt företag i
+telekommunikations­branchen'' får nog de flesta svenskar att associera
+till Ericsson.
+
+Data som samlats in ska användas för det syfte som är överenskommet med
+uppgiftslämnarna. Uppgifter om t ex en projektgrupps effektivitet, är
+ofta byggd på data om individerna. Om överenskommelsen med
+uppgiftslämnarna gäller gruppens data med syfte att förbättra
+arbetsprocessen, får man inte kartlägga individernas prestationer som
+underlag för lönesättning eller liknande.
+
+Behandling av personuppgifter som helt eller delvis är automatiserad
+regleras av personuppgiftslagen (SFS 1998:204). Utöver dessa juridiska
+frågor finns det flera etiska aspekter att ta hänsyn till, särskilt med
+tanke på att det är så lätt att automatiskt samla in data via
+elektroniska verktyg, t ex via kameror och ''avlyssningsprogram'' på
+datorn.
+
+Som nämnts ovan gäller offentlighetsprincipen för svenska universitet
+och högskolor, vilken regleras av tryckfrihetsförordningen (SFS
+1949:105). ''Till främjande av ett fritt meningsutbyte och en allsidig
+upplysning skall varje svensk medborgare ha rätt att taga del av
+allmänna handlingar'' (2 kap, 1 §). Allmänna handlingar omfattar såväl
+dokument som bilder och ljudupptagningar som finns hos en myndighet, dvs
+vid en högskola eller ett universitet. Det är viktigt att ha med detta i
+beräkningen, dels när man sätter upp sekretessavtal med en
+uppdragsgivare, dels när man avtalar med uppgiftslämnare om skyddet av
+deras uppgifter och identiteter.
+
+\section{Prototyputveckling}\label{prototyputveckling}
+
+I många examensarbeten är målet att utveckla en del av en produkt eller
+en metod. Det kan t ex röra sig om att utveckla programvara till ett
+företag eller att utveckla en metod för att skatta parametrar till en
+simuleringsmodell. Det som karakteriserar ett examensarbete i detta
+sammanhang är att specifikationen för det som ska utvecklas inte är
+färdig när arbetet börjar. Om den hade varit det så hade inte
+utbildningsmålen med examensarbetet kunnats tillgodoses. Istället är
+målet att specificera det som utvecklas medan utvecklingen sker. En
+metod för att göra detta är att utveckla prototyper med ett evolutionärt
+angreppssätt.
+
+Ett evolutionärt angreppssätt åskådliggörs i figur 6.5 (Sommerville
+2007). Arbetet börjar med en idé om vad som ska göras, men det är ännu
+inte helt klart exakt vad resultatet kommer att bli. En första
+specifikation tas fram och baserat på den tas en första produkt fram.
+Denna produkt är en prototyp som kan utvärderas med målsättningen att
+kunna definiera nästa version av specifikationen. Den uppdaterade
+specifikationen används sedan för att utveckla nästa version av
+produkten vilken i sin tur kan utvärderas. På så sätt fortsätter man
+tills man kan utveckla en slutgiltig produkt eller en slutgiltig
+specifikation. När en ny produktversion utvecklas med detta angreppssätt
+så kan detta göras som en vidareutveckling av den förra versionen, men
+det kan också vara möjligt att börja från början utan att använda sig av
+den förra versionen. Särskilt när den sista versionen utvecklas så kan
+det vara lämpligt att göra en nystart, eftersom man då eftersträvar en
+produkt som har en bra design som inte har försämrats av de ständiga
+förändringar som skett under det tidigare arbetet.
+
+Prototyperna kan utvecklas på olika sätt med olika metoder. Man kan
+givetvis utveckla dem med samma metoder som ska användas för den
+slutgiltiga versionen, men eftersom man, särskilt för de första
+versionerna, vill fokusera på vissa egenskaper så kan man ha lägre krav
+när det gäller andra egenskaper. Man kan i prototypen t~ex bortse från
+krav på svarstider, minnesåtgång och använda metoder som går snabbt att
+använda, men som inte är lämpliga för den slutgiltiga produkten. En
+simuleringsmodell kan ses som en prototyp som kan utvecklas i syfte att
+senare leda till en slutgiltig produkt.
+
+Två exempel på examensarbeten åskådliggör hur arbetet kan gå till:
+
+\begin{itemize}
+\item
+  \emph{Utveckling av programvaruprodukt:} Examensarbetet börjar med en
+  idé om ett program för att lagra incidenter och erfarenheter från ett
+  produktionsföretag. Företaget initierar examensarbetet och
+  examensarbetarna börjar med att ta fram en första specifikation som
+  granskas och godkänns av företaget. Efter det tar examensarbetarna
+  fram en prototyp som endast består av de mest basala funktionerna.
+  Representanter för företaget utvärderar detta program genom att prova
+  att lägga in ett antal realistiska men påhittade incidenter i
+  systemet. Efter detta kan de identifiera ett antal förändringar som
+  måste göras och ett antal ytterligare funktioner som måste läggas till
+  i systemet för att det ska vara användbart. Baserat på detta utvecklar
+  examensarbetarna nästa version, vilken åter kan utvärderas av
+  företaget. Baserat på detta kan examensarbetarna definiera en
+  slutgiltig specifikation som blir det slutgiltiga resultatet av
+  arbetet. Företaget kan sedan arbeta vidare med denna specifikation för
+  att utveckla en produkt som de kan använda i sin verksamhet. För
+  större uppgifter är det i många fall inte möjligt ett ta fram en
+  slutgiltig produkt inom ramen för ett examensarbete. Evolutionär
+  utveckling är en viktig del i lättrörlig programvaruutveckling,
+  ''Extreme Programming'' (Beck 1999).
+\item
+  \emph{Utveckling av skattningsmetod:} I ett forskningsprojekt behöver
+  man stöd för att skatta parametrar till ett simuleringsprogram. Två
+  examensarbetare tar fram en första beskrivning av en metod för att
+  skatta parametrar. Efter det tar man fram instruktioner,
+  pappersbaserade formulär och annat material för att stödja metoden och
+  låter personer från forskningsprojektet prova metoden. Baserat på
+  detta kan examensarbetarna uppdatera metodbeskrivningen. Som ett nästa
+  steg tar de fram ett fullständigt web-baserat stöd för metoden, med
+  manualer, instruktioner, databasstöd, etc för att forskningsprojektet
+  i framtiden ska kunna utföra denna typ av skattningar. I detta exempel
+  var det möjligt att inte bara ta fram en slutgiltig specifikation,
+  utan även en slutgiltig version av själva produkten, dvs
+  skattningsmetoden.
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item ~
+    \section{Modellering}\label{modellering}
+  \end{enumerate}
+\end{itemize}
+
+I ett examensarbete kan man ta fram en modell av något fenomen för att
+kunna analysera fenomenet eller för att modellen har ett värde i sig.
+Exempel på fenomen som man kan studera i ett examensarbete är hur en
+webbserver ska konstrueras för att fungera även under hög belastning
+eller hur en serviceorganisation bäst kan arbeta för att serva sina
+kunder. En modell är en abstraktion av ett fenomen, där man tagit med de
+viktigaste aspekterna utifrån det perspektiv man vill modellera, se
+figur 6.6. En modell innebär alltid en förenkling av fenomenet -- det är
+själva poängen med att bygga en modell att inte alla detaljer finns med.
+Denna modell behöver sedan valideras, dvs jämföras med fenomenet eller
+en annan modell av fenomenet för att se att de viktiga aspekterna finns
+med i modellen och fångar dem på ett rimligt sätt.
+
+En modell kan vara allt från en beskrivning av ett arbetsflöde i form av
+ett blockschema, till en differentialekvation som beskriver en aspekt av
+ett fysikaliskt fenomen. Modeller kan se olika ut och tas fram för
+mycket olika syften. Arbetsbeskrivningen kan syfta till att förstå och
+kommunicera till medarbetarna hur en organisation fungerar.
+Differentialekvationen kan syfta till att lösa ett optimeringsproblem
+genom simuleringar. Oavsett vilken typ av modeller som tas fram finns
+det tre viktiga steg som är gemensamma: 1) Modelldesign, 2)
+Implementation och 3), Validering. Beskrivningen nedan är generaliserad
+från riktlinjer om simuleringsmodeller (Kellner et al 1999). Fördjupad
+kunskap om modellering och simulering förmedlas t ex av Law och Kelton
+(2000).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \includegraphics[width=4.32708in,height=2.11111in]{media/image1.jpeg}Modelldesign
+\end{enumerate}
+
+En modell kan användas för olika syften, t ex för att utvärdera ny
+teknik, för planering, utbildning och kommunikation. Beroende på syftet
+blir modellens olika egenskaper viktiga. En modell som ska användas för
+att utvärdera prestanda hos en webbserver under hög belastning kan
+beskrivas som en kö som anropen läggs i och en betjänare som utför
+uppgifterna i kön. Modellen behöver inte ta upp varje enskilt anrop till
+servern, utan kan modellera anropen som en stokastisk fördelning.
+Betjänaren behöver kanske inte för ett visst syfte ta hänsyn till att
+tiden för betjäning varierar, utan man kan använda ett medelvärde.
+Modellen behöver dock vara exakt formulerad, t ex i ett programspråk.
+För en modell som ska användas för att beskriva och kommunicera hur
+människor arbetar behöver inte beskrivningen vara så exakt utan kan
+dokumenteras i ett blockdiagram med rutor, pilar och text i naturligt
+språk.
+
+Modelldesignen innebär beslut kring tre viktiga områden, som alla avgörs
+med hänsyn till modellen syfte:
+
+\begin{itemize}
+\item
+  \emph{Avgränsning:} För att få en modell av hanterbar storlek och
+  komplexitet behöver modellens omfång avgränsas. Det första steget är
+  att tydligt specificera det fenomen som ska modelleras, och definiera
+  vad som inte ska modelleras. Omfånget ska vara tillräckligt stort för
+  att fånga de viktiga aspekterna av fenomenet, men inte för stort så
+  att modellen blir ohanterlig.
+\item
+  \emph{Indata och utdata:} Vilka in- och utdata ska tas med i modellen?
+  Man bör först och främst välja de data som antas ha störst påverkan på
+  det modellerade fenomenet. Om man bygger en simuleringsmodell
+  motsvarar utdata de parametrar man vill analysera genom simuleringen,
+  och indata de parametrar man vill variera.
+\item
+  \emph{Abstraktionsnivå:} En detaljerad modell har fördelen att många
+  aspekter av fenomenet kan fångas. Å andra sidan riskerar en detaljerad
+  modell bli så komplex att man tappar överblicken över helheten. En
+  detaljerad modell blir också svårare att validera.
+\end{itemize}
+
+Det finns en uppsjö av olika typer av modelldesigner. Nedanstående lista
+ger några exempel på hur man kan uttrycka sin modell (Kellner et al
+1999):
+
+\begin{itemize}
+\item
+  Tillståndsbaserade processer
+\item
+  Diskret händelse-processer
+\item
+  Systemdynamikmodeller
+\item
+  Petri-nät
+\item
+  Kömodeller
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \item
+    Implementation
+  \end{enumerate}
+\end{itemize}
+
+Modellens design implementeras på olika sätt beroende på modellens
+syfte. För en modell som utgörs av en processbeskrivning innebär
+implementationen att denna kommuniceras till användarna i form av ett
+seminarium och en webbsida. För en simuleringsmodell innebär
+implementationen att man omsätter modellens design i ett exekverbart
+simuleringsprogram.
+
+Det finns många programmiljöer som kan användas för att bygga
+simuleringsmodeller, t ex matlab/simulink\footnote{www.mathworks.com}
+för simulering av dynamiska system. Fördelen med att implementera
+modellen i en programmiljö är att denna tar hand om mycket av den
+funktionalitet som krävs för att administrera själva simuleringsmodellen
+och man kan ägna sin tid och energi åt själva simuleringsmodellen.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Validering
+\end{enumerate}
+
+Ett viktigt, men ofta försummat steg i modellering är validering av
+modellen. Detta innebär att man återkopplar modellen till det
+ursprungliga fenomenet och undersöker om modellen är en korrekt och
+giltig beskrivning av det modellerade fenomenet.
+
+För en modell som har människor som primära användare, t ex en
+processbeskrivning, utförs valideringen genom att man låter ett urval av
+de framtida användarna sättas sig in i modellen och uttala sig om den.
+Detta sker lämpligen i form av en halvstrukturerad intervju (se kapitel
+6.3.3).
+
+För en datorimplementerad modell innebär valideringen exekvering av
+modellen med indata för några punkter i indatarymden som har kända
+utdata. I exemplet med webbservern finns det en analytisk modell som är
+giltig för vissa fördelningar av indata. Man kan köra
+simuleringsmodellen med dessa indata och göra valideringen genom att
+jämföra med den analytiska modellen för att se att simuleringsmodellen
+ger samma utdata som den analytiska modellen för de kända
+förutsättningarna. Om man har mätningar på ett riktigt system eller en
+prototyp för vissa indata, så kan dessa utgöra referenspunkter för
+validering av simuleringsmodellen.
+
+De slutsatser man drar från en modell måste också valideras. Frågor man
+bör ställa sig är t ex följande. Ger den ett rimligt resultat? Är
+modellen känslig, så att resultaten är starkt beroende av vissa
+parameterval? Genom att intervjua erfarna personer inom området kan man
+få hjälp med rimlighetsbedömningen. Känslighetsanalysen kan utföras t ex
+med hjälp av försöksplanering, se kapitel~6.3.7.
+
+\section{Analys}\label{analys}
+
+När man samlat in data på olika sätt behöver man analysera dem för att
+se vad de visar. Denna analys kräver olika slags metoder. Vi delar här
+in metoderna i två huvudkategorier, utifrån karaktären på insamlad data:
+\emph{kvantitativ} och \emph{kvalitativ}.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Kvantitativ analys
+\end{enumerate}
+
+Med kvantitativ analys menas att man analyserar kvantitativ data, dvs
+data som kan representeras i termer av antal och siffervärden. Man
+använder sig ofta av metoder från statistiken i detta arbete. Tanken med
+detta delkapitel är inte att ge uttömmande information om kvantitativ
+analys eftersom det skulle kräva för mycket utrymme. Istället visar vi
+på vilka metoder från statistik och matematik som kan användas och
+hänvisar till standardlitteratur i statistik, t ex Blom (2005).
+
+Kvantitativa tekniker kan användas på två huvudsakliga sätt. Dels kan de
+användas för att utforska data för att få förståelse och dels kan de
+användas för att visa på samband och hypoteser som man tidigare ställt
+upp.
+
+Det finns ett antal mått som kan användas för att utforska och beskriva
+en datamängd, t ex:
+
+\begin{itemize}
+\item
+  \emph{Lägesmått}: Om data är på ordinalskala eller högre så kan man
+  använda medianvärdet, dvs värdet i ''mitten'' av den sorterade
+  mätserien. Om data är på högre nivå (intervallskala eller kvotskala)
+  så kan man även använda medelvärdet.
+\item
+  \emph{Spridningsmått}: Om data följer en intervallskala eller
+  kvotskala så kan man t ex undersöka variansen (Blom 2005).
+\end{itemize}
+
+För att utforska en datamängd kan man också beskriva den med grafiska
+tekniker, t ex:
+
+\begin{itemize}
+\item
+  \emph{Histogram:} Dessa diagram kan ritas för att förstå hur data är
+  fördelat.
+\end{itemize}
+
+\begin{itemize}
+\item
+  \emph{''Box-plots'':} Även dessa diagram visar hur data är fördelat.
+  Ett exempel på en boxplot visas till vänster i figur 6.7. \emph{m}
+  motsvarar medianen av de data som åskådliggörs, \emph{ök} motsvarar
+  den övre kvartilen av data, dvs medianen av alla datapunkter som är
+  större än \emph{m}. \emph{uk} är den undre kvartilen, dvs medianen av
+  alla datapunkter som inte är större än \emph{m}. \emph{ög} är en övre
+  gräns för de typiska värdena, vilken räknas ut som den största
+  datapunkten som är mindre än eller lika med \emph{ök}+1.5\emph{d}, där
+  \emph{d}=\emph{ökuk} är boxens storlek. \emph{ug} är en undre gräns
+  som räknas ut som den minsta datapunkten som är större än eller lika
+  med \emph{uk}1.5\emph{d}. Alla datapunkter som är mindre än \emph{ug}
+  eller större än \emph{ög} markeras som atypiska. Box-plots bygger inte
+  på några starka antaganden om skalor eller fördelningar, vilket
+  innebär att det i stort sett alltid är meningsfullt att rita denna typ
+  av diagram. Det finns i litteraturen ett antal varianter av box-plots.
+  Denna beskrivning följer Frigge (1989).
+\item
+  \emph{xy-diagram} är ett exempel på hur diagram kan användas för att
+  få förståelse för hur två variabler samvarierar. Ett exempel på ett
+  diagram av denna typ finns till höger i figur 6.7.
+\end{itemize}
+
+För att undersöka sambandet mellan två faktorer kan man beräkna
+korrelationskoefficienten, vilken beskriver i hur stor utsträckning de
+två faktorerna samvarierar. För att beskriva hur faktorerna samverkas
+kan ett matematiskt samband beskrivas med hjälp av linjär regression.
+Dessa begrepp beskrivs närmare bl a i Blom (2005).
+
+Hypotesprövning kan användas för att utvärdera hypoteser. Detta görs
+genom att man först definierar en nollhypotes och sedan försöker
+förkasta den. Man kan t ex ha som nollhypotes att två dataserier har
+samma medelvärde. Om man då kan förkasta denna hypotes på en viss
+signifikansnivå så har man visat att medelvärdet inte är det samma.
+Några vanliga begrepp i detta sammanhang är:
+
+= \emph{P}(typ-1-fel) = \emph{P}(förkasta \emph{H\textsubscript{0}}
+\textbar{} \emph{H\textsubscript{0}} sann)
+
+= \emph{P}(typ-2-fel) = \emph{P}(förkasta ej \emph{H\textsubscript{0}}
+\textbar{} \emph{H\textsubscript{0}} falsk)
+
+Det högsta värdet man tillåter på α kallar man den signifikansnivå man
+valt. Om man säger att man ska använda signifikansnivån 5\% så menar man
+att sannolikheten för ett typ-1-fel får vara högst 5\% då man förkastar
+en nollhypotes.
+
+Ett enkelt exempel kan illustrera hur ett hypotestest kan utföras. Antag
+att man har registrerat ett antal programvarufel under testning av
+programmet. Dessa fel klassificeras som förstörande och icke
+förstörande, där fel av den första typen förstör data i programvaran,
+medan fel av den andra typen inte förstör data. Man har registrerat 19
+fel, varav 4 var förstörande. Antag att man formulerar nollhypotesen som
+att förstörande fel och icke förstörande fel är lika vanliga. Detta är
+samma sak som att sannolikheten att ett registrerat fel är förstörande
+och sannolikheten att det inte är förstörande den samma, dvs. 0,5. En
+alternativhypotes kan formuleras som att förstörande fel inte är lika
+vanliga som icke förstörande fel. Man har valt en signifikansnivå på
+1\%, dvs 0.01.
+
+Om nollhypotesen är sann så är sannolikheten att få så få förstörande
+fel som 4:
+
+P( 4 förstörande fel \textbar{} \emph{H\textsubscript{0}}) =
+
+Detta blir ungefär 0,0096, vilket är mindre än 0,01, vilket medför att
+man kan förkasta nollhypotesen baserat på denna data. Man kan konstatera
+att om 5 av de 19 felen varit förstörande så hade sannolikheten varit
+0,0318 vilket inte är mindre än 0,01 och man hade inte kunnat förkasta
+nollhypotesen. Om man har hittat 19 fel så kan man alltså formulera
+testet som att man kan förkasta nollhypotesen till fördel för den
+formulerade alternativhypotesen om högst 4 fel är förstörande.
+
+Några vanliga hypotestest kan sammanfattas enligt tabell 6.6. Mer
+information om dessa test ges t ex av Blom (2005), Montgomery (2005) och
+Siegel och Castellan (1988). I tabellen skiljer man mellan
+icke-parametriska test som inte kräver några särskilda skalor eller
+fördelningar och parametriska test som ofta kräver normalfördelning och
+åtminstone intervallskala.
+
+Ett viktigt steg i kvantitativ analys är att undersöka om data
+innehåller felaktiga värden. Det kan t ex vara värden som beror på
+missuppfattningar, mätfel, eller liknande. Dessa måste tas bort eller
+rättas till så tidigt som möjligt under analysen. Exempel på tekniker är
+att undersöka atypiska värden som t ex kan identifieras i ''box-plots''
+eller xy-diagram.
+
+Förutom de tekniker som nämnts i detta stycke så finns det ytterligare
+en stor mängd tekniker som kan användas beroende på vilket ämnesområde
+ett examensarbete är inom.
+
+Tabell 6.6. Exempel på vanliga hypotestest.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\textbf{Undersökningsdesign} & \textbf{Parametriskt test} &
+\textbf{Icke-parametriskt test}\tabularnewline
+En faktor, två behandlingar & t-test &
+\vtop{\hbox{\strut Mann-Whitney,}\hbox{\strut Chi-2}}\tabularnewline
+\vtop{\hbox{\strut En faktor, två behandlingar,}\hbox{\strut parvisa
+jämförelser}} & t-test (''paired design'') &
+\vtop{\hbox{\strut Wilcoxon,}\hbox{\strut Sign-test}}\tabularnewline
+\vtop{\hbox{\strut En faktor, mer än två}\hbox{\strut behandlingar}} &
+ANOVA &
+\vtop{\hbox{\strut Kruskal-Wallis,}\hbox{\strut Chi-2}}\tabularnewline
+Mer än en faktor & ANOVA &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Kvalitativ analys
+\end{enumerate}
+
+Analys av kvalitativ data är annorlunda till sin karaktär än analys av
+kvantitativ data. Kvalitativ data utgörs av ord och beskrivningar, och
+att räkna medelvärden och varians på sådana låter sig inte göras.
+Däremot är \emph{existensen} av ord, begrepp och beskrivningar viktiga i
+den kvalitativa analysen, och i vissa fall även \emph{frekvensen}.
+
+De data som analyseras är textdokument, antingen transkriberade
+intervjuer (utskrivna i text) eller arkivmaterial (dokument framtagna
+för andra syften än den aktuella studien). Att transkribera en intervju
+är en arbetskrävande process som kan ta upp till 10 gånger så lång tid
+som själva intervjun. Det är därför lockande att göra sammanfattande
+transkriberingar för att spara tid. Det kan man göra, men man riskerar
+att tappa i precision och djup i analysen. Studiens syfte får avgöra hur
+detaljrik transkriberingen ska vara.
+
+Man kan grupper olika angreppssätt till kvalitativ analys i fyra
+principiellt olika kategorier (Robson 2002, s 458), där endast de tre
+första uppfyller kravet på vetenskaplighet.
+
+\begin{itemize}
+\item
+  \emph{Kvasi-statistiska} \emph{metoder} bygger på att man räknar
+  förekomsten av ord eller grupper av ord i olika texter. På så sätt kan
+  man jämföra hur viktiga olika termer och koncept är för olika
+  personer. Exempel på en kvasi-statistiska metod är innehållsanalys
+  (eng \emph{content analysis}) (Robson 2002, s 351-359).
+\item
+  \emph{Mallbaserade metoder} utgår från en lista av nyckelord och söker
+  förekomsten av dessa i den kvalitativa datan. Listan av nyckelord
+  ställs samman utifrån teori och terminologi i det undersökta området.
+  Textsegment ur texterna kopplas till dessa nyckelord genom markeringar
+  i texten eller genom att placeras i en matris med nyckelorden som
+  kolumner och intervjupersonerna eller de studerade dokumenten som
+  rader. Denna metod kallas matrisanalys. Här fokuseras inte på hur
+  många som säger vad, utan på vems som säger vad.
+\item
+  \emph{Editerande} \emph{metoder} syftar liksom de mallbaserade till
+  att skapa kategorier av ämnen. Skillnaden är att de editerande
+  metoderna inte utgår från några nyckelord, utan söker nyckelorden i
+  själva datamaterialet. Analyspersonens tolkning av innehållet och
+  mönstren i texterna utgör grund för kategorierna. \emph{Grounded
+  theory} är ett exempel på en editerande metod.
+\item
+  \emph{Fördjupande metoder} är namnet på ett angreppssätt som bygger på
+  att analyspersonen fördjupar sig i materialet och med hjälp av sin
+  kreativitet och intuition drar slutsatser. Denna metod som inte låter
+  sig beskrivas systematiskt, kan knappast räknas som vetenskaplig och
+  kan därmed inte rekommenderas.
+\end{itemize}
+
+Processen i den kvalitativa analysen kan schematiskt beskrivas i fyra
+steg. Kvalitativa studier är oftast av flexibel natur och stegen kan
+följaktligen genomlöpas flera gånger.
+
+\begin{itemize}
+\item
+  \emph{Datainsamling:} Detta steg omfattar intervjuer, inspelning av
+  observationer, transkribering, arkivsökningar etc fram till dess att
+  det finns ett (elektroniskt sökbart) dokument att analysera.
+\item
+  \emph{Kodning:} Viktiga uttalanden eller passager i dokument markeras
+  och kopplas till ett eller flera nyckelord. I en intervju sägs ofta en
+  del som inte innehåller någon relevant information och denna behöver
+  inte tas med i kodningen. Å andra sidan bör man inte bara ta enstaka
+  nyckelord ut sitt sammanhang, utan hellre markera hela passager i
+  intervjun för att få dem i ett sammanhang.
+
+  Ett alternativ till enkla nyckelord för kodning är s k
+  protokollanalys. I en sådan analys utgörs kodningsschemat av ett s~k
+  protokoll som kan vara en schematiserad beskrivning av en händelse
+  eller en resonemangskedja. Insamlade data mappas mot protokollet för
+  att karaktärisera skeendet eller resonemanget. Detta är särskilt
+  lämpligt i observationsstudier, där handlings- eller
+  resonemangsmönster observeras och kodas.
+\item
+  \emph{Gruppering:} De kodade textsegmenten grupperas så att man
+  studerar t ex vad olika personer sagt om ett visst nyckelord. Om vissa
+  uttalar sig positivt och andra negativt kring detta kan man gå vidare
+  för att se om det finns ett mönster i vad man anser med avseende på
+  andra nyckelord, t ex vilken roll man har. Grupperingen kan redovisas
+  i en s k ''fyrfältare'', enligt illustration i tabell 6.7.
+\end{itemize}
+
+Tabell 6.7. Exempel på ''fyrfältare''
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Förhållande till nyckelord X & Positiv & Negativ\tabularnewline
+Chef & ID1, ID3, ID4 &\tabularnewline
+Underordnad & ID6 & ID2, ID5, ID7, ID8\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{itemize}
+\item
+  \emph{Slutsatser:} Baserat på grupperade data kan man dra slutsatser.
+  I exemplet ovan kan man se en tendens att chefer är mer positiva till
+  fenomenet än underordnade.
+\end{itemize}
+
+I kvalitativa studier är det ofta meningslöst att söka slutsatser av
+typen att ''80\% av de underlydande är negativa till fenomenet''. Sådana
+slutsatser beror på urvalet av intervjupersoner, och i en kvalitativ
+studie har man ofta ett litet urval. Man kan i stället söka slutsatser
+på ett lite djupare plan, t ex hur man resonerar kring en fråga eller
+vilken motivation man har för ett agerande.
+
+I den kvalitativa analysen är begreppet \emph{spårbarhet} centralt.
+Slutsatserna som dras från ett datamaterial ska kunna spåras tillbaka
+till vilka uttalanden som ligger bakom och vilka grupperingar av
+information som lett fram till slutsatsen. Detta ställer krav på
+dokumentationen av analysen. Man ska i efterhand kunna följa hur
+slutsatserna drogs från materialet.
+
+\section{Resultatvalidering}\label{resultatvalidering}
+
+Hur kan man säkerställa att resultaten man får fram är giltiga, dvs.
+står för en så objektiv bild som möjligt av det observerade fenomenet?
+Processen att säkerställa detta kallas validering. Resultaten som ska
+valideras kan vara en beskrivning av ett fenomen i text, men det kan
+också vara en simuleringsmodell som representerar ett fenomen i ett
+organisatoriskt eller tekniskt system.
+
+För studier med flexibel design är det lämpligt att ta hänsyn till
+följande fem områden (efter Robson 2004, s 174):
+
+\begin{itemize}
+\item
+  Loggning
+\item
+  Återkoppling
+\item
+  Tredje-parts-granskning
+\item
+  Triangulering
+\item
+  Långtidsstudier
+\end{itemize}
+
+Att föra loggbok över arbetsprocessen, dokumentera beslut och
+tankegångar utgör grunden för att säkerställa att den genomförda studien
+är väl genomförd och trovärdig. Särskilt viktigt är det att spara
+dokumentation från datainsamling och analys, så att man i efterhand kan
+undersöka hur vägen fram till en viss slutsats har gått. Under ett
+examensarbete går man ibland in i en ''återvändsgränd'' där man inte
+kommer längre utan man får ta ett steg tillbaka och försöka på något
+annat sätt. Sådana ''återvändsgränder'' är viktiga att ha med i sin
+loggbok, och ibland också i slutrapporten.
+
+För att säkerställa att man har en solid faktagrund att stå på kan man
+tillämpa återkoppling, alltså att uppgiftslämnare och andra experter får
+ge kommentarer om observationerna motsvarar deras uppfattning av de
+uppgifter som de har lämnat. Figur 6.8 visar en schematisk bild av
+kommunikation mellan människor. Denna kan tillämpas på en undersökning
+där en intervjuperson (sändare) säger något (budskap) till en som
+intervjuar (mottagare). För att säkerställa att man uppfattat
+intervjupersonen rätt ger man dem tillgång till en transkribering eller
+sammanfattning av intervjumaterialet (återkoppling). Däremot behöver man
+inte vara överens med intervjupersonerna om slutsatserna som dras från
+materialet, och validering av slutsatser sker på andra sätt.
+
+Att använda en tredje part som granskare av olika steg i en undersökning
+bidrar till att reducera risken att man blir ''hemma-blind'' i studien.
+En studentkollega eller en av handledarna för examensarbetet kan fungera
+som tredje-parts-granskare i olika skeden av arbetet.
+
+Genom att använda flera olika slags metoder för att samla in data och
+analysera dem kan man få en bättre bild av det observerade fenomenet.
+Detta kallas triangulering. Begreppet kommer från geometrin där man kan
+bestämma en punkts position genom att mäta avståndet från två olika
+referenspunkter. I överförd bemärkelse studerar man det observerade
+fenomenet från olika perspektiv så kan man få en bättre beskrivning av
+det.
+
+Att bedriva en studie under en lång tid kan både bidra till och hota
+validiteten i en studie. Risken med att göra korta studier är att man
+inte förstår komplexiteten i det man observerar pga. att man har den
+historiska kontexten etc. Å andra sidan är risken med att göra långa
+studier, att man blir ''hemma-blind'' och blir en del av det observerade
+fenomenet eller dess kontext. Ett examensarbete är oftast av en
+fördefinierad längd, så därför kan man sällan påverka denna faktor inom
+ramen för ett examensarbete.
